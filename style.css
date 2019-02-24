@@ -48,3 +48,49 @@ body{
 	background-color: #2c71b8;
 	color: white;
 }
+.box {
+	padding-left: 30px;
+	padding-top: 5px;
+}
+.box form {	
+  width: 74%;
+  background: #A3D0C3;
+  height: 40px;
+  background-image: url(images/patt.png);
+}
+.box input, .box button {
+  border:  1px solid #2c71b8;
+  border-bottom: none;
+  outline: none;
+  background-color: rgba(255,255,255,0.75);
+}
+.box input {
+  width: 80%;
+  height: 38px;
+  padding-left: 20px;
+  text-align: left;
+  line-height: 38px;
+  color: #2c71b8;
+  font-size: 21px;
+}
+.box input::-webkit-input-placeholder {
+	color:#2c71b8;
+	font-size: 21px;
+}
+.box button {
+  cursor: pointer;
+  background-image: url(images/patt.png);
+  margin: 4px;
+  padding: 4px;
+}
+button[type="search"] {
+    background: url(images/search.png);
+    margin: auto;
+	background-repeat : no-repeat;
+	height: 30px;
+	width: 30px;
+	border: none;
+  	padding: 4px;
+  	vertical-align: middle;
+  	margin: 0 auto;
+}
